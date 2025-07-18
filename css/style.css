@@ -69,9 +69,26 @@ body {
 
 .footer {
     background-color: var(--color-secundario);
-    color: white;
+    color: rgb(233, 222, 222);
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
     height: 10rem;
+}
+
+/* Lo que hice yo (Juanangel)*/
+.buscador {
+    padding: 0.5rem;
+    border-radius: 4px;
+    box-decoration-break: none;
+    border: 1px solid rgb(198, 195, 195);
+    width: 25rem;
+    height: 3.2rem;
+}
+
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
