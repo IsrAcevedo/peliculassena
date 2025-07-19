@@ -10,6 +10,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 9px;
+    font-style:backdrop;
 }
 
 html {
@@ -17,7 +21,10 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
     background-color: var(--color-fondo);
     color: var(--color-texto);
     display: flex;
