@@ -25,6 +25,33 @@ body {
   min-height: 100vh;
 }
 
+.titulo-principal {
+  margin: 0;
+}
+
+.seccion-peliculas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  flex: 1;
+  margin-top: 10rem;
+}
+
+.footer {
+  background-color: var(--color-secundario);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  height: 10rem;
+}
+
+/* fin codigo original */
+
+
+/* codigo camilo torres */
 a {
   color: rgb(243, 4, 4);
   text-decoration: none;
@@ -60,19 +87,8 @@ a {
   gap: 20px;
 }
 
+/* fin aporte camilo torres */
 
-.titulo-principal {
-  margin: 0;
-}
-
-.seccion-peliculas {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 2rem;
-  flex: 1;
-}
 
 /* APORTACION JHOSEF */
 
@@ -148,20 +164,11 @@ a {
   margin-top: 0.5rem;
 }
 
-.footer {
-  background-color: var(--color-secundario);
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-  height: 10rem;
-}
-
 /* Header - Hecho por Ángela */
 
 .fondo_header {
   background-image: url(../img/teatro2.jpg);
-  height: 650px;
+  height: 50rem;
   background-size: cover;
   align-items: center;
   position: relative;
@@ -235,8 +242,11 @@ a {
   height: 100%;
 }
 
-.buscador {
+/* fin codigo angela */
 
+/* codigo juanangel */
+
+.buscador {
   width: 50%;
   margin: 0 auto;
 }
@@ -245,3 +255,5 @@ a {
   width: 100%;
   padding: 1rem;
 }
+
+/* fin codigo juan angel */
