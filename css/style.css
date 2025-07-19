@@ -75,3 +75,28 @@ body {
     margin-top: 2rem;
     height: 10rem;
 }
+
+/* aporte de Cristian Contreras */
+
+.cuadro_trailer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.video {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    gap: 50px;
+    &:hover {
+        color: rgb(204, 238, 111);
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    
+}
