@@ -37,7 +37,9 @@ a {
     transition-duration: 0.5s;
   }
 }
-
+.btnmenu{
+  display: none;
+}
 .barra_navegacion {
   background-color: black;
   display: flex;
@@ -59,7 +61,41 @@ a {
   display: flex;
   gap: 20px;
 }
-
+@media(max-width:480px){
+  .btnmenu{
+    display: block;
+    background-color: black;
+  }
+  #btnmenu{
+    color: red;
+    background: transparent;
+    margin: 10px 0 0 10px;
+    border: none;
+  }
+  #btnmenu svg{
+    width: 25px;
+    height: 25px;
+    }
+  .barra_navegacion{
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    }
+  .navegacion_principal{
+    flex-direction: column;
+    }
+    .navegacion_redes svg{
+    width: 25px;
+    height: 25px;
+    }
+    .no_navbar{
+    display: none;
+    }
+    .navbar{
+    display: flex;
+    }
+}
 .encabezado {
   background-color: var(--color-primario);
   padding: 1rem;
