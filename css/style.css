@@ -26,12 +26,7 @@ body {
 
 }
 
-.encabezado {
-    background-color: var(--color-primario);
-    padding: 1rem;
-    text-align: center;
-    color: white;
-}
+
 
 .titulo-principal {
     margin: 0;
@@ -74,4 +69,82 @@ body {
     padding: 1rem;
     margin-top: 2rem;
     height: 10rem;
+}
+
+/* Header - Hecho por Ángela */
+
+.fondo_header{
+    background-image: url(../img/teatro2.jpg);
+    height: 650px;
+    background-size: cover;
+    align-items: center;
+    position:relative;
+    width: 100%;
+    background-position: center center;
+}
+
+.contenedor_header{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    background: rgb(0 0 0 /20%);
+    position: relative;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    gap:0;
+}
+
+.encabezado{
+    align-content: center;
+    padding: 1rem;
+    height: 200px;
+    text-align: left;
+    border-radius: 10px;
+    color: white;
+}
+
+.titulo-principal{
+    font-size: 60px;
+    text-shadow: 0 0 7px #fff;
+    text-align: center;
+}
+
+#sena{
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0 0 7px #ef9d9d;
+    text-align: center;
+    color: #ef9d9d;
+}
+
+.titulo-principal span{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.contenedor_pelis{
+    display: flex;
+}
+
+.poster{
+    width: 150px;
+    transition: transform 0.3s ease, scale 0.3s ease;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 50);
+    transform: rotate(5deg);
+    cursor: pointer;
+    margin: -20px;
+
+    &:hover{
+        transform: rotate(0deg) scale(1.1);
+    }
+}
+
+.contenedor_pelis img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
