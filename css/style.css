@@ -92,3 +92,42 @@ body {
     justify-content: space-between;
     text-align: center;
 }
+
+.btnmenu {
+    display: none;
+}
+
+a {
+    color: rgb(243, 4, 4);
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: capitalize;
+
+    &:hover {
+        color: rgb(218, 91, 12);
+        transform: scale(1.);
+        transition-duration: 0.5s;
+    }
+}
+
+.barra_navegacion {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 200px;
+
+}
+
+.navegacion_principal {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 20px;
+
+}
+
+.navegacion_redes {
+    display: flex;
+    gap: 20px;
+}
